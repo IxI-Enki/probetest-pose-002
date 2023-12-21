@@ -16,17 +16,12 @@ $\color{white}{
 }$
 📎 [ **PDF** ](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Test01.pdf) 
 
-$$\color{green}{
+ - → [*Lösung*]
+$$\color{lightgreen}{
 \tiny ---------------------------------------------------------------------
 }$$
 
 # 🧮 **Aufgabenstellungen:**  
-  - ### **1.** *Verschlüsselung* ***ROT13***    
-  - ### **2.** *Strings filtern* ***Filtered Substring***
-
-$$\color{lightgreen}{
-\tiny ---------------------------------------------------------------------
-}$$
 
 $\color{seagreen}{
 \large Hinweis \space und \space Ablauf:
@@ -43,7 +38,7 @@ $\color{yellow}{
 
 ---
 
-# ***1.<sub>)</sub>***    
+# ***1.<sub>)</sub>***  Veschlüsselung     
 $\color{yellowgreen}{
 \huge ROT \space 13:
 }$
@@ -86,7 +81,7 @@ $$\color{yellow}{
 
  ---
  
- # ***2.<sub>)</sub>***    
+ # ***2.<sub>)</sub>***  Stringbearbeitung   
 $\color{yellowgreen}{
 \huge Filtered \space Substring:
 }$
@@ -170,7 +165,6 @@ $$\color{yellowgreen}{
 
  - → [*Lösung*](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Beispiel_1.cs)
 
-  
 $$\color{yellowgreen}{
 \tiny ---------------------------------------------------------------------
 }$$

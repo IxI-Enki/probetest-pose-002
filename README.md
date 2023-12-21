@@ -165,9 +165,10 @@ $$\color{yellow}{
 $$\color{yellowgreen}{
 \Huge SPOILER \quad \large SPOILER \quad \normalsize SPOILER \quad \small SPOILER \quad \tiny SPOILER \quad
 }$$
+
 ---
 
- <sup>→ [*Lösung*](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Beispiel_1.cs) </sup>
+ - → [*Lösung*](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Beispiel_1.cs)
 
   
 $$\color{yellowgreen}{
@@ -177,7 +178,7 @@ $$\color{yellowgreen}{
 ### 🖥 **Ausgabe**: 
    |            *meine Ausgabe:* |
    | :------------------------------- |
-   |  ![**Ausgabe 📎**](![poseProbeTest_002_001](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/c27e4de3-c85e-4f87-b85d-0fd19e28edf7) |
+   |  ![**Ausgabe 📎**](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/c27e4de3-c85e-4f87-b85d-0fd19e28edf7) |
 <!-- ---------------------------------------------|-------------------------------------------- -->  
 $$\color{green}{
 \tiny ---------------------------------------------------------------------
@@ -187,7 +188,7 @@ $$\color{green}{
 ## 💾 `C#` - *Programm*:
  <details><summary>👉 ausklappen 👈 </summary>
 
- ```c#
+```c#
 ﻿namespace StringsArrays
 {
   internal class Program
@@ -237,14 +238,15 @@ $$\color{green}{
       }
    }
 }
-
 ```
+
 <!-- ---------------------------------------------|-------------------------------------------- -->
 $$\color{grey}{
 \tiny ---------------------------------------------------------------------
 }$$
 
-- #### ROT13:  
+- #### ROT13:
+
 ```c#
       // ROT13:
       /*
@@ -263,7 +265,9 @@ $$\color{grey}{
 }$$
 
 - #### ASCII Tabelle ausgeben *( - unnötiger Test)*:
+
 ```c#
+
         // UNNÖTIGER TEST:
         /* 
          * 

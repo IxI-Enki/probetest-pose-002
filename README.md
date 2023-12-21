@@ -20,25 +20,33 @@ $$\color{green}{
 \tiny ---------------------------------------------------------------------
 }$$
 
-## 🧮 **Aufgabenstellungen:**  
-  >  - **1.**) *Verschlüsselung* ***ROT13***    
-  >  - **2.**) *Strings filtern* ***Filtered Substring***  
+# 🧮 **Aufgabenstellungen:**  
+  - ### **1.** *Verschlüsselung* ***ROT13***    
+  - ### **2.** *Strings filtern* ***Filtered Substring***
 
 $$\color{lightgreen}{
 \tiny ---------------------------------------------------------------------
 }$$
 
-## 🧩 **Hinweis** / <sub>Ablauf</sub> 🧠<sup>💭</sup>  
+$\color{seagreen}{
+\large Hinweis \space und \space Ablauf:
+}$
 
-*<p align="right"> Hinweis:* Es dürfen keine String Standard-Methoden verwendet werden **(außer Length)!!**</p>
+$\color{yellow}{
+\huge Tipp: \qquad
+}
+\color{orange}{
+\normalsize \space \space Es \space dürfen \space keine \space String \space Standard-Methoden \space verwendet \space werden }
+\color{red}{
+\space \qquad \Large (außer \space Length)!!
+}$
 
-$$\color{yellowgreen}{
-\tiny ---------------------------------------------------------------------
-}$$
+---
 
-### *Ablauf:*               
-            
-- ## **ROT13:**   
+# ***1.<sub>)</sub>***    
+$\color{yellowgreen}{
+\huge ROT \space 13:
+}$
   - Ihr Programm realisiert einen einfachen Verschlüsselungsalgorithmus für Texte.  
   - Dabei werden nur die ASCII-Klein- und Großbuchstaben durch jenen Buchstaben ersetzt, der **13 Positionen entfernt** ist.  
   - Alle anderen Zeichen (Ziffern, Sonderzeichen, Umlaute, …) bleiben unverändert.  
@@ -52,7 +60,11 @@ $$\color{yellowgreen}{
      > ↳ *Aus E wird R -* **ASCII** *Code* **69** *wird zu* **82**  
      > ↳ *Aus W wird J -* **ASCII** *Code* **87** *wird zu* **74**  
      > ↳ *8 bleibt 8*  
-     > ↳ *ü bleibt ü* 
+     > ↳ *ü bleibt ü*
+
+$$\color{yellowgreen}{
+\tiny ---------------------------------------------------------------------
+}$$
 <!-- ---------------------------------------------|-------------------------------------------- -->  
 *Das Programm nimmt Texteingaben vom Benutzer entgegen, verschlüsselt diese und gibt den verschlüsselten Text aus.*  
 *Danach entschlüsselt das Programm den verschlüsselten Text (mit dem gleichen Code wie zum Verschlüsseln) und gibt hoffentlich wieder den Ursprungstext aus.*   
@@ -64,16 +76,29 @@ $$\color{yellowgreen}{
 $$\color{yellow}{
 \tiny ---------------------------------------------------------------------
 }$$
+<!-- ---------------------------------------------|-------------------------------------------- -->  
+### 🖥 **Beispiel**:  
+   
+   | *Ausgabe:* |  
+   | :-------------------------------: |  
+   |  ![**Beispiele 📎**](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/71b1a1cc-2310-4393-af02-dd10e48a7795) |  
+<!-- ---------------------------------------------|-------------------------------------------- -->  
+
+ ---
  
-- ## **Filtered Substring:**      
-Schreiben Sie ein Programm welches aus einem gegebenen String einen Substring erzeugt.  
-Um den Substring zu definieren, muss dessen Startindex im ursprünglichen Eingabetext und die gewünschte Länge des Substrings angegeben werden.  
+ # ***2.<sub>)</sub>***    
+$\color{yellowgreen}{
+\huge Filtered \space Substring:
+}$
+      
+- Schreiben Sie ein Programm welches aus einem gegebenen String einen Substring erzeugt.  
+- Um den Substring zu definieren, muss dessen Startindex im ursprünglichen Eingabetext und die gewünschte Länge des Substrings angegeben werden.  
 <!-- ---------------------------------------------|-------------------------------------------- -->  
  #### 
    - ***Randbedingungen:***  
-     > ↳ *Ist der Startindex kleiner als 0 wird der Startindex automatisch auf 0 gesetzt.*  
-     > ↳ *Ist der Startindex größer als der Eingabestring, dann ist der Substring ein leerer String (""), unabhängig von der eingegebenen Substringlänge.*  
-     > ↳ *Überschreitet die angegebene Länge ab dem Startindex die Gesamtlänge des Eingabestrings, so wird die Länge automatisch so gekürzt, sodass der Substring beim letzten Zeichen des Eingabestrings endet.*
+     - ↳ *Ist der Startindex kleiner als 0 wird der Startindex automatisch auf 0 gesetzt.*  
+     - ↳ *Ist der Startindex größer als der Eingabestring, dann ist der Substring ein leerer String (""), unabhängig von der eingegebenen Substringlänge.*  
+     - ↳ *Überschreitet die angegebene Länge ab dem Startindex die Gesamtlänge des Eingabestrings, so wird die Länge automatisch so gekürzt, sodass der Substring beim letzten Zeichen des Eingabestrings endet.*
 <!-- ---------------------------------------------|-------------------------------------------- -->  
  #### 
    - ***Beispiel:***  
@@ -82,20 +107,29 @@ Um den Substring zu definieren, muss dessen Startindex im ursprünglichen Eingab
      > ↳ Länge: 5  
      > ↳ Die Länge wird automatisch auf 2 begrenzt, da ab Index 3 nur noch 2 Buchstaben ("lo") im Eingabestring vorhanden sind.
      >     Somit wird ein Laufzeitfehler (System.OutOfRangeException) vermieden.
+
+$$\color{yellow}{
+\tiny ---------------------------------------------------------------------
+}$$
 <!-- ---------------------------------------------|-------------------------------------------- -->  
    - ***Zusatz-Feature:***
      - Der Benutzer kann noch Zeichen angeben, die er aus dem extrahierten Substring rausfiltern will.   
      - Es wird zwischen Groß- und Kleinschreibung unterschieden ('a' ist ungleich 'A').  
      - Die Eingabe wird beendet in dem der Benutzer einen leeren String eingibt (nur die Enter-Taste drückt).  
 <!-- ---------------------------------------------|-------------------------------------------- -->  
-$\color{red}{
-\normalsize Tipp: \Huge Implementieren Sie zuerst die einfache Substring Funktion.
-\Huge
+$\color{yellow}{
+\huge Tipp: \qquad
+}
+\color{orange}{ \Huge Implementieren \space Sie \space zuerst \space die \space einfache \space Substring \space Funktion. 
 }$
 
-<!-- ---------------------------------------------|-------------------------------------------- -->  
-*<p align="center"> **  
-*<p align="center"> Wenn diese funktioniert, dann erweitern Sie Ihr Programm um die Möglichkeit den Substring zu filtern (Zusatz-Feature).*  
+$\color{orange}{
+\small Wenn \space diese \space funktioniert, 
+\normalsize dann \space erweitern \space Sie \space Ihr \space Programm 
+\normalsize um \space die \space Möglichkeit \space den \space Substring \space zu \space filtern
+}
+\color{red}{
+\large \quad (Zusatz-Feature).
 }$
 
 <!-- ---------------------------------------------|-------------------------------------------- -->  
@@ -104,9 +138,39 @@ $$\color{orange}{
 \small ---------------------------------------------------------------------
 }$$
 <!-- ---------------------------------------------|-------------------------------------------- -->  
-# *SPOILER* <sub><sup> → [*Lösung*](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Beispiel_1.cs) <sup></sub>:
+### 🖥 **Beispiele**:  
+   
+   | Eingabestring:  \| Startindex  \| Länge  \| Filterzeichen  \| Ergebnis |  
+   | :-------------------------------: |  
+   |  ![**Beispiele 📎**](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/2071b35c-ae63-44c8-b919-15e90fba6792) |  
+   
+<!-- ---------------------------------------------|-------------------------------------------- -->  
 
-$$\color{white}{
+$$\color{red}{
+\small ---------------------------------------------------------------------
+}$$
+<!-- ---------------------------------------------|-------------------------------------------- -->  
+ 
+   | *Beispielausgaben*: |  
+   | :-------------------------------: |  
+   |  ![**Beispielausgaben 📎**](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/705f247d-4008-4b39-8d42-c42c6ec13c72) |  
+
+<!-- ---------------------------------------------|-------------------------------------------- -->  
+
+$$\color{yellow}{
+\tiny ---------------------------------------------------------------------
+}$$
+<!-- ---------------------------------------------|-------------------------------------------- -->  
+
+$$\color{yellowgreen}{
+\Huge SPOILER \quad \large SPOILER \quad \normalsize SPOILER \quad \small SPOILER \quad \tiny SPOILER \quad
+}$$
+---
+
+ <sup>→ [*Lösung*](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Beispiel_1.cs) </sup>
+
+  
+$$\color{yellowgreen}{
 \tiny ---------------------------------------------------------------------
 }$$
 <!-- ---------------------------------------------|-------------------------------------------- -->  
@@ -115,7 +179,7 @@ $$\color{white}{
    | :------------------------------- |
    |  ![**Ausgabe 📎**](![poseProbeTest_002_001](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/c27e4de3-c85e-4f87-b85d-0fd19e28edf7) |
 <!-- ---------------------------------------------|-------------------------------------------- -->  
-$$\color{white}{
+$$\color{green}{
 \tiny ---------------------------------------------------------------------
 }$$
 

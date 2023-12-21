@@ -74,10 +74,9 @@ $$\color{yellow}{
 }$$
 <!-- ---------------------------------------------|-------------------------------------------- -->  
 ### 🖥 **Beispiel**:  
-   
-   | *Ausgabe:* |  
-   | :-------------------------------: |  
-   |  ![**Beispiele 📎**](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/71b1a1cc-2310-4393-af02-dd10e48a7795) |  
+![Beispielausgaben 1](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/a506cd5f-f80a-4eb9-9d49-e2c1097f7ad4)
+
+
 <!-- ---------------------------------------------|-------------------------------------------- -->  
 
  ---
@@ -135,35 +134,21 @@ $$\color{orange}{
 }$$
 <!-- ---------------------------------------------|-------------------------------------------- -->  
 ### 🖥 **Beispiele**:  
-   
-   | Eingabestring:  \| Startindex  \| Länge  \| Filterzeichen  \| Ergebnis |  
-   | :-------------------------------: |  
-   |  ![**Beispiele 📎**](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/2071b35c-ae63-44c8-b919-15e90fba6792) |  
-   
+![Beispiele 2](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/0e723a4b-e040-443d-b495-44c00f7b6171)
 <!-- ---------------------------------------------|-------------------------------------------- -->  
 
-$$\color{red}{
-\small ---------------------------------------------------------------------
+---
+
+# ***Lösung:***  
+
+$$\color{yellowgreen}{
+\Huge SPOILER \quad \Huge SPOILER \quad \large SPOILER \quad \large SPOILER \quad \normalsize SPOILER \quad \normalsize SPOILER \quad \small SPOILER \quad \small SPOILER \quad \tiny SPOILER \quad
 }$$
-<!-- ---------------------------------------------|-------------------------------------------- -->  
- 
-   | *Beispielausgaben*: |  
-   | :-------------------------------: |  
-   |  ![**Beispielausgaben 📎**](https://github.com/IxI-Enki/probetest-pose-002/assets/138018029/705f247d-4008-4b39-8d42-c42c6ec13c72) |  
-
 <!-- ---------------------------------------------|-------------------------------------------- -->  
 
 $$\color{yellow}{
-\tiny ---------------------------------------------------------------------
+\tiny -------------------------------------------------------
 }$$
-<!-- ---------------------------------------------|-------------------------------------------- -->  
-
-$$\color{yellowgreen}{
-\Huge SPOILER \quad \large SPOILER \quad \normalsize SPOILER \quad \small SPOILER \quad \tiny SPOILER \quad
-}$$
-
----
-# ***Lösung***  
 
  - → [*source_1*](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Beispiel_1.cs)
  - → [*source_2*]

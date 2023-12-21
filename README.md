@@ -16,7 +16,7 @@ $\color{white}{
 }$
 📎 [ **PDF** ](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Test01.pdf) 
 
- - → [*Lösung*](https://github.com/IxI-Enki/probetest-pose-002/blob/main/README.md#-lösung)
+ - → [*Lösung*](https://github.com/IxI-Enki/probetest-pose-002/blob/main/README.md#lösung)
 
 $$\color{lightgreen}{
 \tiny ---------------------------------------------------------------------

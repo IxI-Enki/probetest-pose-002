@@ -11,7 +11,7 @@ $$\color{seagreen}{
 }$$ 
 
 <!-- ---------------------------------------------|-------------------------------------------- -->
-$\color{white}{
+$\color{green}{
 \small Angabe: 
 }$
 📎 [ **PDF** ](https://github.com/IxI-Enki/probetest-pose-002/blob/main/work-directory/Test01.pdf) 
